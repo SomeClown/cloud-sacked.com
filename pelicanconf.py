@@ -33,3 +33,23 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Added by Teren
+THEME = "../pelican-themes/voidy-bootstrap"
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ['sitemap']
+TYPOGRIFY = True
+
+SITEMAP = { 
+        'format': 'xml', 
+        'priorities': { 
+            'articles': 1, 
+            'indexes': 0.5, 
+            'pages': 0.5, 
+            }, 
+        'changefreqs': { 
+            'articles': 'always', 
+            'indexes': 'hourly', 
+            'pages': 'monthly' 
+            }
+        }
