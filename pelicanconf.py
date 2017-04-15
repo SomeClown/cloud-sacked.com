@@ -35,7 +35,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # Added by Teren
-THEME = "../pelican-themes/voidy-bootstrap"
+THEME = "../pelican-themes/flex"
 PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = ['sitemap']
 TYPOGRIFY = True
